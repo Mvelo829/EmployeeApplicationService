@@ -1,0 +1,37 @@
+.custom-modal .ant-modal-title {
+  color: white; 
+}
+.custom-modal .ant-modal-content {
+  background-color:#3A3952 ; 
+}
+
+.custom-modal .ant-modal-header {
+  background-color: #3A3952; 
+}
+
+.custom-modal .ant-modal-footer {
+  background-color: #3A3952; 
+}
+
+
+.button {
+  background-color: #5D356D;
+  color: white;
+  border-radius: 15px;
+  border: none; 
+  padding: 10px 15px; 
+  cursor: pointer; 
+  display: inline-flex; 
+  align-items: center; 
+}
+
+.buttonicon > svg {
+  font-size: 20px;
+  margin-right: 5px; 
+}
+
+.button > span {
+  font-size: 10px;
+  margin-top: 1px;
+  line-height: 1; 
+}

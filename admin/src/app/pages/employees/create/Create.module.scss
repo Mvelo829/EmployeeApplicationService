@@ -1,0 +1,96 @@
+/* CustomModal.css */
+
+.labelHeader_container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Optional: Adds spacing between labels */
+}
+
+.sectionHeader_container{
+    color: #8611b8;
+    font-weight: bolder;
+}
+.form_container {
+    max-width: 600;
+    background-color:#3A3952 ;
+}
+.label_container
+{
+    color: #ffffff;
+}
+.delete_column
+{
+    width: 6%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: larger;
+}
+.delete_icon{
+    color: white;
+    cursor: pointer;
+}
+
+.details_col
+{
+ width: 33.3333%;
+}
+
+.skill_coll
+{
+ width: 35.3333%;
+ margin-right:2% ;
+}
+.years_col
+{
+    width: 18%;
+    margin-right:2% ;
+}
+.input_field{
+    background-color: #878282;
+    color:#ffffff;
+    border-color: #878282;
+    &:focus {
+        color: #878282;
+      }
+}
+
+.address_city_col{
+    width: 35.3333%;
+    margin-right: 2%;
+}
+
+.address_postal_col{
+    width: 26.666%;
+    margin-right: 2%;
+}
+.address_country_col{
+ width: 33.3333%;
+}
+
+.first_name_col{
+    width: 40%;
+    margin-right: 10%;
+}
+.last_name_col{
+    width: 50%;
+}
+
+.submit_button
+{
+    background-color: #5D356D;
+    color: white;
+    border-radius: 15px;
+    border: none; 
+    cursor: pointer; 
+    align-items: center; 
+    margin-top: 8%;
+}
+
+.buttonn_container
+{
+    width:100%;
+}
+
+.container_submit{
+    width: 50%;
+}
