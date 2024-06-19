@@ -29,7 +29,7 @@ const SkillProvider:FC<PropsWithChildren<any>> = ({children}) =>{
   };
 
   const getAllSkills =  () => {
-    debugger
+    
     setAllSkills({ state: 'loading' });
     SkillService.getApiServicesAppSkillGetAll().then((res) => {
       setAllSkills({ state: 'success', value: res['result']})

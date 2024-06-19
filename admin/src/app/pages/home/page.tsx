@@ -31,7 +31,7 @@ const App: React.FC = () => {
     const [filterSkillValue, setFilterSkillValue] = useState<string>('');
 
     const handleMenuClick: MenuProps['onClick'] = (e) => {
-        debugger
+        
         if (e.key === '1') {
             setSelectedFilter('1')
         } else if (e.key === '2') {
@@ -65,7 +65,7 @@ const App: React.FC = () => {
     }
     const handleFilter = () => {
 
-        debugger
+        
         if(filterSkillValue !== '' && filterDateValue !== '')
         {
             const personIds = allSkills?.value?.items.filter(skill => skill.name === value).map(skill => skill.personId);
@@ -115,7 +115,7 @@ const App: React.FC = () => {
     };
 
     useEffect(() => {
-        debugger
+        
         if (selectedPerson != undefined && selectedPerson != null && Object.keys(selectedPerson).length === 0) {
             setModalOpen(true)
         }

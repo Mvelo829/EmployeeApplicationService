@@ -26,14 +26,14 @@ const CreateOrEditEmployee: React.FC<ICreateEmployeeProps> = ({ onFinish, select
 
 
     useEffect(() => {
-        debugger
+        
         const test = skillSet;
         setSelected(selectedPerson)
     }, [selectedPerson])
 
     const handleSaveChanges = async () => {
         try {
-            debugger
+            
             const values = await form.validateFields();
             const payload: CreatePersonDto = {
                 id: selectedPerson?.id,
